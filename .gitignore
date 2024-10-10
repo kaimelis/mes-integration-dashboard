@@ -29,6 +29,10 @@ coverage
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
+# OS generated files
+.DS_Store
+Thumbs.db
+
 # Bower dependency directory (https://bower.io/)
 bower_components
 
@@ -37,6 +41,8 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
+build/
+dist/
 
 # Dependency directories
 node_modules/
@@ -128,3 +134,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# IDE specific files
+.vscode/
+.idea/
